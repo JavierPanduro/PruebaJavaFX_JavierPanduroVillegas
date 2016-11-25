@@ -19,16 +19,16 @@
                <children>
                   <AnchorPane maxHeight="1.7976931348623157E308" maxWidth="1.7976931348623157E308" minHeight="-Infinity" minWidth="-Infinity" prefHeight="81.0" prefWidth="600.0" style="-fx-background-color: #008080;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" BorderPane.alignment="CENTER">
                      <children>
+                        <Button layoutX="179.0" layoutY="16.0" mnemonicParsing="false" prefHeight="54.0" prefWidth="243.0" style="-fx-background-color: #008080; -fx-border-color: white;" text="View in GitHub" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="11.0" AnchorPane.leftAnchor="179.0" AnchorPane.rightAnchor="178.0" AnchorPane.topAnchor="16.0">
+                           <font>
+                              <Font name="System Bold" size="18.0" />
+                           </font>
+                        </Button>
                         <ImageView fitHeight="90.0" fitWidth="85.0" layoutX="6.0" layoutY="1.0" pickOnBounds="true" preserveRatio="true">
                            <image>
                               <Image url="@vista.images/github_white.png" />
                            </image>
                         </ImageView>
-                        <Label alignment="CENTER" contentDisplay="CENTER" layoutX="14.0" prefHeight="81.0" prefWidth="600.0" text="View in GitHub" textAlignment="CENTER" textFill="WHITE" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="14.0" AnchorPane.rightAnchor="-14.0" AnchorPane.topAnchor="0.0">
-                           <font>
-                              <Font name="Bookman Old Style Bold" size="18.0" />
-                           </font>
-                        </Label>
                      </children>
                   </AnchorPane>
                </children>

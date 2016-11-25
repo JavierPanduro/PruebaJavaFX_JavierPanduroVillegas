@@ -9,13 +9,14 @@ import javafx.scene.Scene;
 import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.BorderPane;
 
+/**
+* @author Javier Panduro Villegas
+* @version 2.0
+* @since 25-11-2016
+*/
 
 public class MainFX extends Application {
-	/**
-	@author: Javier Panduro Villegas
-	@version: 2.0
-	@since: 25-11-2016
-	*/
+	
 	private AnchorPane rootLayout;
 	public Stage primaryStage;
 	
