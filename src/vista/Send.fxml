@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.effect.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane prefHeight="581.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="vista.ControlFX">
+   <children>
+      <BorderPane layoutX="-89.0" layoutY="-84.0" prefHeight="316.0" prefWidth="511.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+         <top>
+            <AnchorPane prefHeight="91.0" prefWidth="800.0" style="-fx-background-color: #008080;" BorderPane.alignment="CENTER">
+               <children>
+                  <ImageView fitHeight="139.0" fitWidth="228.0" layoutX="330.0" nodeOrientation="INHERIT" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@vista.images/profilephoto.png" />
+                     </image>
+                  </ImageView>
+               </children>
+            </AnchorPane>
+         </top>
+         <bottom>
+            <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" onAction="#handleClose" prefHeight="59.0" prefWidth="104.0" stylesheets="@application.css" textAlignment="CENTER" BorderPane.alignment="CENTER">
+               <graphic>
+                  <ImageView fitHeight="86.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@vista.images/images.jpg" />
+                     </image>
+                  </ImageView>
+               </graphic></Button>
+         </bottom>
+         <center>
+            <AnchorPane>
+               <children>
+                  <Label layoutX="313.0" layoutY="14.0" stylesheets="@application.css" text="Mi Información:" BorderPane.alignment="CENTER" />
+                  <Label layoutX="75.0" layoutY="38.0" prefHeight="35.0" prefWidth="687.0" text="El concepto de un árbol de la vida es un mitema o arquetipo entendido en las mitologías del mundo." />
+                  <TextField layoutX="307.0" layoutY="282.0" />
+                  <TextField layoutX="307.0" layoutY="129.0" />
+                  <TextField layoutX="307.0" layoutY="205.0" />
+                  <Label layoutX="373.0" layoutY="86.0" text="Nombre: " />
+                  <Label layoutX="373.0" layoutY="163.0" text="Apellido: " />
+                  <Label layoutX="383.0" layoutY="246.0" text="E-mail" />
+               </children>
+            </AnchorPane>
+         </center>
+      </BorderPane>
+   </children>
+</AnchorPane>
